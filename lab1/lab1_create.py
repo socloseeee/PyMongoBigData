@@ -30,7 +30,3 @@ data = [
 ]
 
 collection.insert_many(data)
-
-# Вывод документов
-for doc in collection.find({'assessment_type': 'экзамен'}):
-    print(doc)
