@@ -4,7 +4,7 @@ from pymongo import MongoClient
 client = MongoClient('localhost', 27017)
 
 # Выбор базы данных
-db = client['lab3']
+db = client['labb3']
 
 # Выбор коллекции
 collection_name = 'family'
